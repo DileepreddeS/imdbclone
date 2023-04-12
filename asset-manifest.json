@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/DileepreddeS/imdbclone.git/static/css/main.bf0ad9dc.css",
+    "main.js": "/DileepreddeS/imdbclone.git/static/js/main.30d1fa71.js",
+    "static/js/787.741971bc.chunk.js": "/DileepreddeS/imdbclone.git/static/js/787.741971bc.chunk.js",
+    "static/media/revicons.eot": "/DileepreddeS/imdbclone.git/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/DileepreddeS/imdbclone.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/DileepreddeS/imdbclone.git/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/DileepreddeS/imdbclone.git/index.html",
+    "main.bf0ad9dc.css.map": "/DileepreddeS/imdbclone.git/static/css/main.bf0ad9dc.css.map",
+    "main.30d1fa71.js.map": "/DileepreddeS/imdbclone.git/static/js/main.30d1fa71.js.map",
+    "787.741971bc.chunk.js.map": "/DileepreddeS/imdbclone.git/static/js/787.741971bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf0ad9dc.css",
+    "static/js/main.30d1fa71.js"
+  ]
+}
