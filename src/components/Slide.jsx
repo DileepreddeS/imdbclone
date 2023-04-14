@@ -1,4 +1,4 @@
-import { Box, styled, Typography } from "@mui/material";
+import { styled } from "@mui/material";
 import Carousel from "react-multi-carousel";
 
 const responsive = {
@@ -16,40 +16,37 @@ const responsive = {
   },
 };
 
-const Title =styled('Typography')`
-color:#FFFFFF;
-`
+const Title = styled("Typography")`
+  color: #ffffff;
+`;
 
-const StyledBanner =styled('img')`
-  width:100%
-`
-const Slide =({movies}) =>{
-
-   return(
-    <Carousel 
+const StyledBanner = styled("img")`
+  width: 100%;
+`;
+const Slide = ({ movies }) => {
+  return (
+    <Carousel
       responsive={responsive}
-        infinite={true}
-        swipeable={false}
-        slidesToSlide={1}
-        autoPlay={true}
-        draggable={false}
+      infinite={true}
+      swipeable={false}
+      slidesToSlide={1}
+      autoPlay={true}
+      draggable={false}
       autoPlaySpeed={3000}
       keyBoardControl={true}
-  >
-        {movies.map((movie, index) => (
-          <>
+    >
+      {movies.map((movie, index) => (
+        <>
           <StyledBanner
             key={index}
             src={`https://images.tmdb.org/t/p/original/${movie.backdrop_path}`}
             alt="banner"
           />
           <Title>{movie.original_title}</Title>
-          </>
-        ))}
-      </Carousel>
-   )
-}
-
-
+        </>
+      ))}
+    </Carousel>
+  );
+};
 
 export default Slide;
